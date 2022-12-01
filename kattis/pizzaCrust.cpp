@@ -20,10 +20,6 @@ int main()
     double innerArea = pi * i * i;
     double cheesePercentage;
 
-    //cout << wholeArea << endl;
-    //cout << innerArea << endl;
-    //cout << crustArea << endl;
-
     if (innerArea > 0)
     {
         cheesePercentage = 100*(innerArea / wholeArea);

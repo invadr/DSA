@@ -15,7 +15,7 @@ int main()
     {
         for(int j = 0; j < a; j++)
         {
-            if(s[j] == lower[i])
+            if(s[i] == lower[j])
             {
                 checker = 1;
             }
@@ -24,6 +24,14 @@ int main()
                 checker = 0;
             }
         }
+    }
+    if(checker == 1)
+    {
+        cout << "YES";
+    }
+    else
+    {
+        cout << "NO";
     }
 
     return 0;
